@@ -1,0 +1,29 @@
+At Least 3 Levels 	6 -COMPLETE
+Effective Parallax 	3 -COMPLETE
+Top Down Level 	3 -COMPLETE
+Splash Screen 	1 -COMPLETE
+Level Design 	4 -COMPLETE
+Game story or theme well thought out and solid 	4 -COMPLETE
+Beyond tutorial baseline 	4 -COMPLETE
+Art work consistent theme and well crafted 	4 -COMPLETE
+Box2D (***) 	0 -NOT REQUIRED?
+Self Portrait Integrated 	3 -COMPLETE
+Sprites 	Main Player Look & Feel 	3 -COMPLETE
+Run 	3 -COMPLETE
+Fall 	3 -COMPLETE
+Jump 	3 -COMPLETE
+Swim 	3 -COMPLETE
+Fly 	0 -INCOMPLETE
+Climb 	0 -INCOMPLETE
+Swing (challenge) 	4 -NOT REQUIRED?
+Friendly Sprites 	3 -COMPLETE
+Enemy  Static 	2 -COMPLETE
+Enemy  Dynamic 	2 -COMPLETE
+3 Type Attacks- 1 needs to be impressive (2,2,4) 	8 -COMPLETE
+Player #Lives 	2 -COMPLETE
+Player Health 	2 -COMPLETE
+Documentation 	Report quality pdf  and screenshots.  	5 -COMPLETE
+Grade TXT (and insightful, i.e., neither exaggerates, or underestimates). 	4 -COMPLETE
+README 	2 -COMPLETE
+Demo Demo/present 	4 -COMPLETE
+Demo quality prepared	6 -COMPLETE
