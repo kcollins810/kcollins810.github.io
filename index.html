@@ -28,6 +28,7 @@ var chart = d3.select(".chart")
     .attr("height", height);
 
 d3.tsv("data.tsv", type, function(error, data) {
+  console.log("file downloaded");
   y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
   var barWidth = width / data.length;
@@ -51,6 +52,7 @@ d3.tsv("data.tsv", type, function(error, data) {
 
 function type(d) {
   d.value = +d.value; // coerce to number
+  console.log("each value coerced");
   return d;
 }
 
