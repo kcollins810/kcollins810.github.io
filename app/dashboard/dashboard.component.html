@@ -1,0 +1,16 @@
+<div class="row">
+  <a routerlink="/Manage" (click)="clickMe($event,'/Manage')" data-menulink="/Manage" class="menu_option menu-link h3">System Configuration</a>
+  <div class="description">Create, Edit, Delete, Log Out User, Assign Servers to User</div>
+
+  <a (click)="clickMe($event,'/OnDemandTest')" data-menulink="/OnDemandTest" class="menu_option menu-link">On-Demand Test</a>
+  <div class="description">Manage User, Server, Device, Alarm, Monitoring Plan, Channel Table</div>
+
+  <a (click)="clickMe($event,'/AlarmAndMonitor')" data-menulink="/AlarmAndMonitor" class="menu_option menu-link">Real-time Alarm & Monitor</a>
+  <div class="description">View Real-time Alarms on the System and View Monitor Result on Server</div>
+
+  <a (click)="clickMe($event,'/AlarmAndDatalog')" data-menulink="/AlarmAndDataLog" class="menu_option menu-link">Alarm & Datalog</a>
+  <div class="description">View Alarm and Data Logs from Specific Server, Process, Clear Alarms on the System</div>
+
+  <a (click)="clickMe($event,'HistoryLog')" data-menulink="/HistoryLog" class="menu_option menu-link">Activity Log</a>
+  <div class="description">View and export activity log for Vesion system users</div>
+</div>

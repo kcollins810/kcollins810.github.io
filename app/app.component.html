@@ -1,0 +1,7 @@
+
+<!--Just here to give extarnal javascript an object to send event to. -->
+<span (window:okLogin)="okLogin($event)" (window:failLogin)="failLogin($event)" (window:silverlightInit)="initComplete($event)"></span>
+<router-outlet></router-outlet>
+<app-login *ngIf="show_login_form"></app-login>
+
+<app-silverlight  targetPath="" #SilverLight></app-silverlight>
